@@ -1,8 +1,5 @@
 # Portofolio Website - Vue 3 & Tailwind CSS
-
-<p align="center">
-    <img src="/public/app.png" alt="Preview Portofolio Vue" width="600"/>
-</p>
+![Preview Website](/public/app.png)
 
 ## Daftar Isi
 
@@ -127,4 +124,4 @@ Proyek ini menggunakan lisensi [MIT](LICENSE).
 
 ---
 
-**Dibuat dengan ❤️ [alif](https://alifbima.vercel.app/) menggunakan Vue 3 & Tailwind CSS**
+**Dibuat dengan ❤️ [4lifbima](https://alifbima.vercel.app/) menggunakan Vue 3 & Tailwind CSS**
