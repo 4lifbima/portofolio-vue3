@@ -13,7 +13,7 @@ import Contact from '../components/Contact.vue';
     <hero />
     <about />    
     <services />
-    <portofolio />
+    <portofolio :limit="6" />
     <testimonials />
     <contact />
     

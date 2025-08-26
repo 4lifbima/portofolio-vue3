@@ -7,10 +7,10 @@
                 </div>
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-8">
-                        <a href="#home" class="px-3 py-2 rounded-md text-white text-sm font-medium hover:text-amber-400 transition-colors">Home</a>
-                        <a href="#about" class="px-3 py-2 rounded-md text-white text-sm font-medium hover:text-amber-400 transition-colors">About</a>
+                        <router-link to="/" class="px-3 py-2 rounded-md text-white text-sm font-medium hover:text-amber-400 transition-colors">Home</router-link>
+                        <router-link to="/about" class="px-3 py-2 rounded-md text-white text-sm font-medium hover:text-amber-400 transition-colors">About</router-link>
                         <a href="#services" class="px-3 py-2 rounded-md text-white text-sm font-medium hover:text-amber-400 transition-colors">Services</a>
-                        <a href="#portfolio" class="px-3 py-2 rounded-md text-white text-sm font-medium hover:text-amber-400 transition-colors">Portfolio</a>
+                        <router-link to="/portfolio" class="px-3 py-2 rounded-md text-white text-sm font-medium hover:text-amber-400 transition-colors">Portfolio</router-link>
                         <a href="#testimonials" class="px-3 py-2 rounded-md text-white text-sm font-medium hover:text-amber-400 transition-colors">Testimonials</a>
                         <a href="#contact" class="px-3 py-2 rounded-md text-white text-sm font-medium hover:text-amber-400 transition-colors">Contact</a>
                     </div>
@@ -27,12 +27,12 @@
         <!-- Mobile menu -->
         <div id="mobile-menu" class="hidden md:hidden glass-effect">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="#home" class="block px-3 py-2 rounded-md text-white text-base font-medium hover:text-amber-400 transition-colors">Home</a>
-                <a href="#about" class="block px-3 py-2 rounded-md text-white text-base font-medium hover:text-amber-400 transition-colors">About</a>
-                <a href="#services" class="block px-3 py-2 rounded-md text-white text-base font-medium hover:text-amber-400 transition-colors">Services</a>
-                <a href="#portfolio" class="block px-3 py-2 rounded-md text-white text-base font-medium hover:text-amber-400 transition-colors">Portfolio</a>
-                <a href="#testimonials" class="block px-3 py-2 rounded-md text-white text-base font-medium hover:text-amber-400 transition-colors">Testimonials</a>
-                <a href="#contact" class="block px-3 py-2 rounded-md text-white text-base font-medium hover:text-amber-400 transition-colors">Contact</a>
+                <router-link to="/" class="block px-3 py-2 rounded-md text-white text-base font-medium hover:text-amber-400 transition-colors">Home</router-link>
+                <router-link to="/about" class="block px-3 py-2 rounded-md text-white text-base font-medium hover:text-amber-400 transition-colors">About</router-link>
+                <router-link  to="#services" class="block px-3 py-2 rounded-md text-white text-base font-medium hover:text-amber-400 transition-colors">Services</router-link>
+                <router-link  to="/portfolio" class="block px-3 py-2 rounded-md text-white text-base font-medium hover:text-amber-400 transition-colors">Portfolio</router-link>
+                <router-link  to="#testimonials" class="block px-3 py-2 rounded-md text-white text-base font-medium hover:text-amber-400 transition-colors">Testimonials</router-link>
+                <router-link  to="#contact" class="block px-3 py-2 rounded-md text-white text-base font-medium hover:text-amber-400 transition-colors">Contact</router-link>
             </div>
         </div>
     </nav>

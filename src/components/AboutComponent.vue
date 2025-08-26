@@ -1,12 +1,6 @@
 <template>
     <section id="about" class="py-20 bg-gray-800">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-16">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-4">
-                        <span class="gradient-text">About Me</span>
-                    </h2>
-                    <div class="w-20 h-1 bg-gradient-to-r from-amber-400 to-purple-600 mx-auto"></div>
-                </div>
                 
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="relative">
@@ -15,7 +9,7 @@
                                  alt="About Me" 
                                  class="w-full h-auto rounded-lg object-cover">
                         </div>
-                        <div class="absolute -bottom-5 -right-2 bg-gradient-to-r from-amber-500 to-purple-600 p-4 rounded-lg shadow-lg">
+                        <div class="absolute -bottom-5 -right-5 bg-gradient-to-r from-amber-500 to-purple-600 p-4 rounded-lg shadow-lg">
                             <h3 class="text-xl font-bold text-white">3+ Years</h3>
                             <p class="text-white text-sm">Experience</p>
                         </div>
